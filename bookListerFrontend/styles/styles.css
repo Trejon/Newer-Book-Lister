@@ -1,25 +1,22 @@
 .msg {
-  width:100%;
+  width: 100%;
   border: 1px solid;
-  padding:10px;
+  padding: 10px;
   margin: 20px;
   color: grey;
 }
 .msg-error {
-  // rouge
   border-color: #d32f2f;
   background-color: #ef5350;
   color: white;
-
 }
 .msg-alert {
-  //orange
-   border-color: #ef6c00;
+  border-color: #ef6c00;
   background-color: #ff9800;
   color: white;
 }
 
-.msg-info{
+.msg-info {
   border-color: #0288d1;
   background-color: #29b6f6;
   color: white;
@@ -35,6 +32,10 @@
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
